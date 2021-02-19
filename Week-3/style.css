@@ -1,10 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 body {
-	width: 80%;
-	margin-top: 15%;
-	margin-left: 10%;
-	margin-right: 10%;
 	text-indent: 40px;
 	background-color: #FFEDEC;
 }
@@ -15,9 +11,28 @@ p {
 	padding-bottom: 25px;
 }
 
+.box {
+	width: 80%;
+	margin-top: 175px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
 .raise {
 	background-color: rgba(200,230,255,.85);
 	box-shadow: 0px 5px 50px 3px #000000;
+}
+.imageThink {
+	position: absolute;
+	top: 600px;
+	left: 25%;
+	right: 25%;
+}
+.imageLive {
+	position: relative;
+	top: 75px;
+	left: 25%;
+	right: 25%;
+	margin-bottom: 175px;
 }
 
 /* WAS BACKGROUND IMAGE, BUT DOESN'T WORK WITH ASSIGNMENT
@@ -37,13 +52,37 @@ p {
 	top: 0px; 
 	left: 0px; 
 	right: 0px;
-	}
+}
 .headerText {
 	font-size: 50px; 
 	margin-top: -10px; 
 	font-family: "Futura"; 
 	text-align: center;
-	}
+}
+/*HOMEMADE FOOTER - PUT ON A DIV AS BACKUP*/
+.footer {
+	background-color: #FFFFFF; 
+	height: 100px; 
+	width: 100%; 
+	position: absolute;
+	top: 1300px;
+	bottom: 0px; 
+	left: 0px; 
+	right: 0px;
+}
+/*FOOTER NOT REALLY WORKING:
+When in relative, footer doesn't fill entire screen
+When in absolute, fills screen but doesn't act as a footer
+No position declaration does same as relative*/
+.test {
+	/*position: relative; 
+	bottom: 0px; 
+	left: 0px; 
+	right: 0px;*/
+	background-color: #FFFFFF; 
+	height: 100px; 
+	width: 100%; 
+}
 
 
 
