@@ -7,6 +7,13 @@ body {
 h2 {
 	color: #FFFFFF;
 	}
+footer {
+	height: 100px;
+	background-color: #FFFFFF;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
 
 .header {
 	background-color: #FFFFFF; 
