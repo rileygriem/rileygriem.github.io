@@ -6,6 +6,7 @@ body {
 	margin-left: 10%;
 	margin-right: 10%;
 	text-indent: 40px;
+	background-color: #FFEDEC;
 }
 p {
 	padding-left: 25px;
@@ -19,13 +20,14 @@ p {
 	box-shadow: 0px 5px 50px 3px #000000;
 }
 
+/* WAS BACKGROUND IMAGE, BUT DOESN'T WORK WITH ASSIGNMENT
 .picture1 {
 	background-image: url('Think.jpg');
 }
 .picture2 {
 	background-image: url('Live.jpg');
 	background-size: 669px 678px;
-}
+}*/
 
 .header {
 	background-color: #FFFFFF; 

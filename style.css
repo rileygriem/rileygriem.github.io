@@ -38,7 +38,7 @@ footer {
 	width: 50%; 
 	position: absolute; 
 	margin-top: 150px;
-	margin-bottom: 25px;
+	/*margin-bottom: 250px;*/
 	left: 25%;
 	right: 25%;
 	}
@@ -64,16 +64,16 @@ a:active {
 	color: #FFFF00;
 }
 
-/*.footer {
+.footer {
 	background-color: #FFFFFF; 
 	height: 100px; 
 	width: 100%; 
-	position: static;
-	top: 1000px; 
+	position: absolute;
+	top: 1150px;
 	bottom: 0px; 
 	left: 0px; 
 	right: 0px;
-	}*/
+	}
 
 .medium-break {
 	display: block; 
