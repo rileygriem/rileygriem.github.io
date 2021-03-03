@@ -1,0 +1,238 @@
+@charset "utf-8";
+/* CSS Document */
+
+.face {
+	position: absolute;
+	top: 50px;
+	left: 200px;
+	height: 530px;
+	width: 400px;
+	background-color: rgb(240,210,180);
+	border-radius: 50%;
+	display: inline-block;
+	filter: drop-shadow(0px 10px 5px rgb(0,0,100));
+}
+.leftEye {
+	position: absolute;
+	top: 250px;
+	left: 275px;
+	height: 40px;
+	width: 75px;
+	background-color: #FFFFFF;
+	border-radius: 50%;
+	display: inline-block;
+}
+.leftPupil {
+	position: absolute;
+	top: 0px;
+	left: 17px;
+	height: 30px;
+	width: 30px;
+	background-color: #000000;
+	border-radius: 50%;
+	display: inline-block;
+	border: solid;
+	border-color: #49311D;
+	border-width: 5px;
+}
+.rightEye {
+	position: absolute;
+	top: 250px;
+	left: 450px;
+	height: 40px;
+	width: 75px;
+	background-color: #FFFFFF;
+	border-radius: 50%;
+	display: inline-block
+}
+.rightPupil {
+	position: absolute;
+	top: 0px;
+	left: 17px;
+	height: 30px;
+	width: 30px;
+	background-color: #000000;
+	border-radius: 50%;
+	display: inline-block;
+	border: solid;
+	border-color: #49311D;
+	border-width: 5px;
+}
+.noseBridge {
+	position: absolute;
+	top: 290px;
+	left: 375px;
+	height: 100px;
+	width: 50px;
+	background-color: rgb(245,220,190);
+	border-radius: 10%/50%;
+	display: inline-block;
+}
+.noseMainLeft {
+	position: absolute;
+	top: 355px;
+	left: 355px;
+	height: 40px;
+	width: 50px;
+	background-color: rgb(245,220,190);
+	border-radius: 50%;
+	display: inline-block;
+}
+.noseMainRight {
+	position: absolute;
+	top: 355px;
+	left: 395px;
+	height: 40px;
+	width: 50px;
+	background-color: rgb(245,220,190);
+	border-radius: 50%;
+	display: inline-block;
+}
+.leftNostril {
+	position: absolute;
+	top: 375px;
+	left: 365px;
+	height: 10px;
+	width: 30px;
+	background-color: rgba(75,40,40,80);
+	border-radius: 50%;
+	display: inline-block;
+}
+.rightNostril {
+	position: absolute;
+	top: 375px;
+	left: 405px;
+	height: 10px;
+	width: 30px;
+	background-color: rgba(75,40,40,80);
+	border-radius: 50%;
+	display: inline-block;
+}
+.lips {
+	position: absolute;
+	top: 430px;
+	left: 325px;
+	height: 50px;
+	width: 150px;
+	background-color: rgb(245,175,170);
+	border-radius: 50%;
+	display: inline-block;
+	transition: transform .5s;
+}
+.mouthShadow {
+	position: relative;
+	top: 10px;
+	left: 0px;
+	height: 1px;
+	width: 150px;
+	background-color: rgb(225,155,150);
+	border-radius: 50%;
+	display: inline-block;
+	transition: transform .5s;
+}
+.hair {
+	position: absolute;
+	top: 45px;
+	left: 220px;
+	height: 170px;
+	width: 360px;
+	background: linear-gradient(0deg, #000000, #332211);
+	border-radius: 50% 50% 35% 35%;
+	display: inline-block;
+}
+.part {
+	position: absolute;
+	top: 150px;
+	left: 380px;
+	height: 150px;
+	width: 50px;
+	background-color: rgb(240,210,180);
+	border-radius: 50%;
+	transform: rotate(-35deg);
+	display: inline-block;
+}
+.leftEyebrow {
+	position: absolute;
+	top: 220px;
+	left: 255px;
+	height: 20px;
+	width: 115px;
+	background-color: #000000;
+	border-radius: 50%;
+	transform: rotate(1deg);
+	display: inline-block;
+}
+.rightEyebrow {
+	position: absolute;
+	top: 220px;
+	left: 435px;
+	height: 20px;
+	width: 115px;
+	background-color: #000000;
+	border-radius: 50%;
+	transform: rotate(-1deg);
+	display: inline-block;
+}
+.leftEyebrowShape {
+	position: relative;
+	top: 7px;
+	left: -10px;
+	height: 20px;
+	width: 150px;
+	background-color: rgb(240,210,180);
+	border-radius: 50%;
+	transform: rotate(1deg);
+	display: inline-block;
+}
+.rightEyebrowShape {
+	position: relative;
+	top: 7px;
+	left: -25px;
+	height: 20px;
+	width: 150px;
+	background-color: rgb(240,210,180);
+	border-radius: 50%;
+	transform: rotate(-1deg);
+	display: inline-block;
+}
+.colorSwitch {
+	position: absolute;
+	top: 600px;
+	left: 250px;
+	height: 75px;
+	width: 150px;
+	background-color: rgb(200,200,255);
+	padding: 5px;
+	margin-left: 70px;
+	margin-top: 50px;
+	text-align: center;
+}
+
+
+
+#winkEye:active {
+	top: 270px;
+	height: 5px;
+	background-color: #000000;
+}
+#winkPupil:active {
+	height: 5px;
+	background-color: #000000;
+	border: none;
+}
+#browRaise:hover {
+	transform: translate(0px, -10px);
+	transition: transform .3s;
+}
+#mouth:active {
+	transform: scale(.5, 1.5);
+	transition: transform .5s;
+	background: radial-gradient(#8B0000, rgb(245,175,170) 50%)
+}
+#funkyColor:active~div {
+	filter: hue-rotate(3rad);
+}
+
+
+
+
