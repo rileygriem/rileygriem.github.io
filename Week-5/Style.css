@@ -10,17 +10,17 @@ h1 {
   -webkit-text-fill-color: transparent;
 }
 video {
-	width: 80%;
+	width: 60%;
+	height: 60%;
 	position: absolute;
-	top: 3600px;
-	left: 10%;
-	right: 10%;
-	height: 600px;
+	top: 200px;
+	left: 20%;
+	right: 20%;
 }
 
 .background {
 	position: absolute;
-	top: 0px;
+	top: 900px;
 	left: 0px;
 }
 .header {
@@ -36,56 +36,56 @@ video {
 	padding-top: 10px;
 }
 .htmlPicture {
-	position: relative;
-	top: 100px;
-	left: 0px;
-	padding: 50px;
+	position: absolute;
+	top: 950px;
+	left: 11%;
+	right: 56%;
 	width: 33%;
 }
 .cssPicture {
-	position: relative;
-	top: 100px;
-	left: 10%;
-	padding: 50px;
+	position: absolute;
+	top: 1025px;
+	left: 55%;
+	right: 11%;
 	width: 33%;
 }
 .slideshowImage1 {
 	position: absolute;
-	width: 80%;
-	height: 600px;
-	top: 800px;
-	left: 10%;
-	right: 10%;
+	width: 60%;
+	height: 60%;
+	top: 200px;
+	left: 20%;
+	right: 20%;
 }
 .slideshowImage2 {
 	position: absolute;
-	width: 80%;
-	height: 600px;
-	top: 1500px;
-	left: 10%;
-	right: 10%;
+	width: 60%;
+	height: 60%;
+	top: 200px;
+	left: 20%;
+	right: 20%;
 }
 .slideshowImage3 {
 	position: absolute;
-	width: 80%;
-	height: 600px;
-	top: 2200px;
-	left: 10%;
-	right: 10%;
+	width: 60%;
+	height: 60%;
+	top: 200px;
+	left: 20%;
+	right: 20%;
 }
 .slideshowImage4 {
 	position: absolute;
-	width: 80%;
-	height: 600px;
-	top: 2900px;
-	left: 10%;
-	right: 10%;
+	width: 60%;
+	height: 60%;
+	top: 200px;
+	left: 20%;
+	right: 20%;
 }
 .footer {
 	height: 100px;
 	width: 100%;
 	position: absolute;
-	top: 4200px;
+	top: 1400px;
 	color: #000000;
 }
 
