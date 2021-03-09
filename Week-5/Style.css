@@ -5,7 +5,7 @@ body {
 }
 h1 {
 	/*color: linear-gradient(to right, rgb(255,100,230), rgb(230,100,255));*/
-	background: -webkit-linear-gradient(#1338BE, #E11584);
+	background: -webkit-linear-gradient(#1338BE, #03C04A);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -20,7 +20,7 @@ video {
 
 .background {
 	position: absolute;
-	top: 900px;
+	top: 750px;
 	left: 0px;
 }
 .header {
@@ -37,14 +37,14 @@ video {
 }
 .htmlPicture {
 	position: absolute;
-	top: 950px;
+	top: 850px;
 	left: 11%;
 	right: 56%;
 	width: 33%;
 }
 .cssPicture {
 	position: absolute;
-	top: 1025px;
+	top: 925px;
 	left: 55%;
 	right: 11%;
 	width: 33%;
