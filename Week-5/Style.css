@@ -3,6 +3,21 @@
 body {
 	background-color: #000000;
 }
+h1 {
+	/*color: linear-gradient(to right, rgb(255,100,230), rgb(230,100,255));*/
+	background: -webkit-linear-gradient(#1338BE, #E11584);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+video {
+	width: 80%;
+	position: absolute;
+	top: 3600px;
+	left: 10%;
+	right: 10%;
+	height: 600px;
+}
+
 .background {
 	position: absolute;
 	top: 0px;
@@ -70,7 +85,7 @@ body {
 	height: 100px;
 	width: 100%;
 	position: absolute;
-	top: 3500px;
+	top: 4200px;
 	color: #000000;
 }
 
