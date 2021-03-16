@@ -60,9 +60,9 @@ h1 {
 	position: absolute;
 	width: 80%;
 	height: auto;
-	left: 10%;
-	right: 10%;
-	top: 6%;
+	left: 9%;
+	right: 11%;
+	top: 7%;
 }
 .potwTitle {	
 	font-family: "Montserrat";
@@ -83,8 +83,22 @@ h1 {
 }
 .filmStrip {
 	width: 200px;
-	height: auto;
+	height: 153px;
 	filter: invert(100%);
+}
+.thumbnailPhoto {
+	width: 189px;
+	height: auto;
+	position: relative;
+	top: -134px;
+	left: 5px;
+}
+.playerCaption {
+	font-family: "Montserrat";
+	font-size: 15px;
+	color: #FFFFFF;
+	text-align: center;
+	font-weight: lighter;
 }
 
 #drone {
@@ -117,6 +131,26 @@ h1 {
 	top: 60%;
 	left: 60%;
 	right: 20%;
+}
+#mendoza {
+	position: absolute;
+	top: 145px;
+	left: 37px;
+}
+#balschmiter {
+	position: absolute;
+	top: 145px;
+	left: 18px;
+}
+#carda {
+	position: absolute;
+	top: 145px;
+	left: 51px;
+}
+#chamberlain {
+	position: absolute;
+	top: 145px;
+	left: 24px;
 }
 
 .menuLeft > p {
