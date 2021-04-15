@@ -1,0 +1,202 @@
+
+body {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#6aee7c,#b38f60) fixed;
+}
+
+img {
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    left: 15%;
+    top: 20%;
+    border-radius: 25px;
+    border: solid 1px black;
+}
+
+.div1 {
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    left: 59.5%;
+    top: 20%;
+    background-color: white;
+    border-radius: 25px;
+    border: solid 4px black;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.div2 {
+    position: absolute;
+    left: 59.5%;
+    top: 50%;
+    height: 50px;
+    width: 300px;
+    background-color: white;
+    border-radius: 25px;
+    border: solid 4px black;
+    text-align: center;
+}
+
+.buttons {
+    border-radius: 25px;
+    border: solid;
+    border-color: white;
+    background-color: white;
+    font-family: 'Calibri';
+}
+
+#title1{
+    text-align: center;
+    font-family: 'Calibri';
+    font-style: italic;
+    font-size: 40px;
+    color: black;
+}
+
+#title2 {
+    text-align: center;
+    font-family: 'Calibri';
+    font-style: italic;
+    font-size: 40px;
+    color: black;
+}
+
+#whiteMain {
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    padding: 5px;
+    margin: 10px;
+}
+
+#blackMain {
+    position: absolute;
+    top: 30%;
+    left: 65%;
+    padding: 5px;
+    margin: 10px;
+}
+
+#grayMain {
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    padding: 5px;
+    margin: 10px;
+}
+
+#carolinaMain {
+    position: absolute;
+    top: 30%;
+    left: 75%;
+    padding: 5px;
+    margin: 10px;
+}
+
+#navyMain {
+    position: absolute;
+    top: 37%;
+    left: 61%;
+    padding: 5px;
+    margin: 10px;
+}
+
+#violetMain {
+    position: absolute;
+    top: 37%;
+    left: 65.5%;
+    padding: 5px;
+    margin: 10px;
+}
+
+#redMain {
+    position: absolute;
+    top: 37%;
+    left: 70.25%;
+    padding: 5px;
+    margin: 10px;
+}
+
+#orangeMain {
+    position: absolute;
+    top: 37%;
+    left: 74%;
+    padding: 5px;
+    margin: 10px;
+}
+
+#whiteAccent {
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    padding: 5px;
+    margin: 10px;
+}
+
+#blackAccent {
+    position: absolute;
+    top: 60%;
+    left: 65%;
+    padding: 5px;
+    margin: 10px;
+}
+
+#grayAccent {
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    padding: 5px;
+    margin: 10px;
+}
+
+#carolinaAccent {
+    position: absolute;
+    top: 60%;
+    left: 75%;
+    padding: 5px;
+    margin: 10px;
+}
+
+#navyAccent {
+    position: absolute;
+    top: 67%;
+    left: 61%;
+    padding: 5px;
+    margin: 10px;
+}
+
+#violetAccent {
+    position: absolute;
+    top: 67%;
+    left: 65.5%;
+    padding: 5px;
+    margin: 10px;
+}
+
+#redAccent {
+    position: absolute;
+    top: 67%;
+    left: 70.25%;
+    padding: 5px;
+    margin: 10px;
+}
+
+#orangeAccent {
+    position: absolute;
+    top: 67%;
+    left: 74%;
+    padding: 5px;
+    margin: 10px;
+}
+
+input:hover {
+    background-color: rgb(200,200,255);
+}
+
+
+
+
+
