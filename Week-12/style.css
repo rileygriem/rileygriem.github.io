@@ -1,0 +1,65 @@
+* {box-sizing:border-box}
+
+body {
+    background-color: black;
+}
+h1 {
+	text-align: center;
+}
+.container {
+  max-width: 1000px;
+  position: relative;
+  margin-top: 100px;
+  margin-left: 220px;
+}
+
+.theSlides {
+  display: none;
+}
+
+.next, .previous {
+  cursor: pointer;
+  position: absolute;
+  padding: -50px;
+  margin-top: 200px;
+  margin-left: -50px;
+  margin-right: -50px;
+  color: white;
+  font-size: 40px;
+}
+
+.next {
+  right: 0;
+}
+
+.next:hover, .previous:hover {
+    opacity: 0.75;
+}
+
+.text {
+  color: white;
+  font-family: "Futura";
+  font-size: 30px;
+  padding: 30px;
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  text-align:center;
+}
+.wireframe {
+	position: absolute;
+	top: 150px;
+	left: 195px;
+	width: 60%;
+	height: auto;
+}
+.dressProfile {
+	position: absolute;
+	top: 650px;
+	left: 195px;
+	width: 60%;
+	height: auto;
+}
+
+
+
