@@ -1,4 +1,36 @@
 /*CSS Document*/
+@media screen and (max-width: 1200px) {
+	div#hot {
+		top: 800px;
+	}
+}
+@media screen and (max-width: 1000px) {
+	div#hot {
+		top: 700px;
+	}
+}
+@media screen and (max-width: 800px) {
+	div#hot {
+		top: 600px;
+	}
+}
+@media screen and (max-width: 600px) {
+	div#hot {
+		top: 500px;
+	}
+}
+@media screen and (max-width: 400px) {
+	div#hot {
+		top: 400px;
+	}
+}
+figcaption {
+	font-family: "Poppins";
+	color: black;
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
 
 /*basic essentials*/
 .allDresses {
@@ -42,7 +74,7 @@
 }
 #footer {
 	position: absolute;
-	top: 1500px;
+	top: 1700px;
 	left: 0px;
 	width: 100%;
 	height: 300px;
@@ -127,6 +159,27 @@
 	text-align: center;
 	font-family: "Poppins";
 	font-size: 15px;
+}
+#hot {
+	position: relative;
+	top: 900px;
+	width: 100%;
+	height: 2000px;
+	font-family: "Poppins";
+	font-size: 30px;
+	color: black;
+	text-align: center;
+	text-decoration: underline;
+	margin-bottom: 50px;
+	background-color: white;
+	padding-top: 30px;
+}
+.hotDresses {
+	width: 25%;
+	height: auto;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 30px;
 }
 
 
@@ -231,9 +284,6 @@
 	color: white;
 	font-family: "Poppins";
 	font-size: 20px;
-}
-.form-control {
-
 }
 
 
