@@ -233,7 +233,7 @@
 	font-size: 20px;
 }
 .form-control {
-	background-color: black;
+
 }
 
 
@@ -276,6 +276,7 @@
 	font-size: 50px;
 	color: black;
 	padding-top: 100px;
+	text-align: center;
 }
 .arrow {
 	width: 50px;
